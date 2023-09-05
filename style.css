@@ -68,7 +68,7 @@ img{
 }
 
 .hero__image picture{
-    mix-blend-mode:multiply;
+    mix-blend-mode:soft-light;
 }
 
 .text__preview{
@@ -127,8 +127,8 @@ a{
 @media(min-width:40.7em) and (max-width:90em){
     main{
         flex-direction: row;
-        width: 1110px;
-        margin: 117px auto;
+        width: 1112px;
+        margin: 130px auto;
         height: 446px;
 
     }
