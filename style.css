@@ -21,6 +21,8 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: var(--bg__dark__blue);
+    
 }
 
 p,
@@ -41,8 +43,72 @@ body{
 /* ------------------ main content -------------- */
 
 main{
+    background-color: var(--bg__desaturated__blue) ;
+    color: var(--White);
     width: 328px;
-    height: 780px;
-    border: solid;
+    /* height: 780px; */
+    /* border: solid; */
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 88px auto;
+    overflow: hidden;
+   
+}
+
+.hero__image{
+  
+ 
+}
+
+.text__preview{
+    margin: 31px;
+}
+
+.text__preview h1{
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: var(--font__family__inter);
+    font-weight: 700;   
+}
+
+.text__preview h1 span{
+    color: var(--soft__violet);
+}
+
+.text__preview p{
+    text-align: center;
+    font-size: var(--font__size);
+    font-family: var(--font__family__inter);
+    font-weight: 400;
+    margin-top: 16px;
+    opacity: 75%;
+
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 40px;
+    font-family: var(--font__family__inter);
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+ul li span{
+    display: block;
+    opacity: 60%;
+    font-family: var(--font__family__lexend);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--White)
 }
