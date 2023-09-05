@@ -1,0 +1,48 @@
+:root{
+    /* ----------------- Primary ---------------- */
+    --bg__dark__blue:hsl(233 , 47% , 7%);
+    --bg__desaturated__blue : hsl(244,38%,16%);
+    --soft__violet : hsl(277, 64%, 61%);
+
+    /* ----------------- Neutral ----------------- */
+    --White : hsl(0,0%,100%);
+    --Slightly__transparent-_p : hsl(0,0%,100%,0.75);
+    --slightly__transparent__head: hsl(0,0%,100%,0.6);
+
+    /* ---------------- Typography --------------- */
+    --font__size: 15px;
+    --font__family__inter: 'Inter', sans-serif;
+    --font__family__lexend: 'Lexend Deca', sans-serif;
+
+}
+
+/* ------------- General ---------------- */
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+p,
+h1,
+ul,
+li,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+/* ------------------ main content -------------- */
+
+main{
+    width: 328px;
+    height: 780px;
+    border: solid;
+    border-radius: 10px;
+}
