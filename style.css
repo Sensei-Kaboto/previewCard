@@ -123,3 +123,46 @@ footer{
 a{
     color: var(--soft__violet);
 }
+
+@media(min-width:40.7em) and (max-width:90em){
+    main{
+        flex-direction: row;
+        width: 1110px;
+        margin: 117px auto;
+        height: 446px;
+
+    }
+
+    .hero__image{
+        order: 2;
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .text__preview{
+        /* margin: 46px; */
+        width: 1047px;
+    }
+    .text__preview h1{
+        font-size: 3.6rem;
+        text-align: left;
+        margin: 40px;
+    }
+
+    .text__preview p{
+        margin: 100px;
+        margin-left:30px;
+        margin-top: 0;
+        margin-bottom: 70px;
+        text-align: left;
+    }
+   
+    ul{
+        display: flex;
+        gap: 85px;
+        margin-left: 30px;
+        margin-top: 70px;
+
+    }
+}
