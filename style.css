@@ -63,12 +63,13 @@ img{
 }
 .hero__image{
   background-color: #AB5CDB;
+  opacity: 90%;
   height: 241px;
  
 }
 
 .hero__image picture{
-    mix-blend-mode:soft-light;
+    mix-blend-mode:multiply;
 }
 
 .text__preview{
@@ -127,8 +128,8 @@ a{
 @media(min-width:40.7em) and (max-width:90em){
     main{
         flex-direction: row;
-        width: 1112px;
-        margin: 160px auto;
+        width: 1111px;
+        margin: 180px auto;
         height: 446px;
 
     }
@@ -136,7 +137,7 @@ a{
     .hero__image{
         order: 2;
         height: 100%;
-        width: 100%;
+        width: 99.9%;
     }
 
 
