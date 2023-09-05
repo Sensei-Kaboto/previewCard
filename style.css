@@ -62,14 +62,14 @@ img{
     max-height: 100%;
 }
 .hero__image{
-  background-color: hsla(277, 98%, 77%,0.4);
+  background-color: hsla(277, 98%, 77%,0.8);
   opacity: 90%;
   height: 241px;
  
 }
 
 .hero__image picture{
-    mix-blend-mode:soft-light;
+    mix-blend-mode:multiply;
 }
 
 .text__preview{
